@@ -1,0 +1,144 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    width: 105vw;
+    height: 104vh;
+    /*background-image: url('images/DSC100779105.jpg');*/
+    background-image: url('images/sn-fingerprints_1.jpg');
+    /*background-image: url('images/IIot_Index.jpg');*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.middleImg{
+    height:500px;
+    width:500px
+
+}
+
+.sec2 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    margin-left: 500px;
+    margin-top: 30px;
+}
+
+    .sec2 .container {
+        width: 55vw;
+        height: 76vh;
+    }
+
+        .sec2 .container img {
+            width: 4.5vw;
+            height: 9vh;
+            padding-left: 10vw;
+        }
+
+.content h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 7vw;
+    margin-top:60px;
+   
+}
+
+.input {
+    width:200px;
+    height: 30px;
+    border: 0;
+    margin-top: .5vh;
+    margin-left: 4.2vw;
+    border-radius: 20px;
+}
+
+.submit {
+    color: white;
+    margin-left: 16vw;
+    margin-top: 2vh;
+    padding-bottom: 6px;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 2px solid red;
+    border-radius: 20px 5px;
+    background-color: black;
+    font-weight: bold;
+    cursor: pointer;
+    display:inline-block;
+    clear:both;
+}
+
+.content input[placeholder] {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 1vw;
+    font-size: 13px;
+    text-align:center;
+}
+
+.login {
+   font-size:60px;
+   color:cornflowerblue;
+   font-display:block;
+   font-weight:1200;
+
+}
+.table{
+    margin-top:0px;
+}
+
+#ogin {
+    margin-bottom: 10px;
+    font-size: 40px;
+    text-shadow: 9px 2px 8px;
+}
+.ogin{
+    color:blueviolet;
+}
+#click {
+    color: red;
+    padding-left:5px;
+    font-weight:400;
+}
+
+table{
+    margin-top:-30px
+}
+.submit:hover {
+    background-color: white;
+    color: black;
+}
+
+#click {
+    color: red;
+    padding-left: 5px;
+    font-weight: 400;
+}
+
+.dropdown {
+    margin-left: 65px;
+    height: 30px;
+    border-radius: 8px;
+    border: 5px white solid;
+    background-color:black;
+    color:white;
+}
+.radio {
+    margin-left: 55px;
+    display:inline;
+    color:white;
+}
+.label {
+    color: antiquewhite;
+    font-weight: 800;
+    text-shadow: 0px 2px 15px;
+    margin-left: 10px;
+    font-size: 20px;
+}

@@ -1,0 +1,99 @@
+﻿
+.seecustomer {
+    display: inline-block;
+    padding: 0px;
+    margin-top: 50px;
+    margin-left: -70px
+}
+
+.search {
+    display: inline-block;
+    float: right;
+    margin-top: 50px;
+}
+
+.gridview {
+    display: inline-block;
+    float: right;
+    width: auto;
+    height: auto;
+    margin-right: -30px;
+}
+
+.grid {
+    height: 150px;
+    width: 100px;
+    margin-top: 10px;
+}
+
+.inputbox {
+    display: inline-block;
+    float: left;
+    margin-left: -220px;
+    clear: both;
+    padding: 20px;
+    margin-top:30px;
+}
+
+.textsearch1 {
+    width: 200px;
+    height: 25px;
+    text-align: center;
+    border-radius: 18px;
+    border: 2px solid white;
+}
+
+.label {
+    color: antiquewhite;
+    font-weight: 600;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.buttonsearch2 {
+    border: 2px solid red;
+    border-radius: 10px 5px;
+    background-color: black;
+    color: white;
+    height: 30px;
+    cursor: pointer;
+    margin-left: 200px;
+    width: 120px;
+    text-align: center;
+}
+
+
+.updateinfo {
+    display: inline-block;
+    height: 36px;
+    width: 300px;
+    margin-left: -100px;
+    margin-bottom: -200px;
+    border-radius: 28px 2px;
+    background-color: black;
+    color: orangered;
+    font-weight: 800;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    clear: both;
+    text-align: center;
+}
+
+.date {
+    display: block;
+    margin-left: -1120px;
+    margin-top: 70px; 
+}
+
+.textvisible {
+    color: whitesmoke;
+    text-align: right;
+    margin-left: 610px;
+    font-size: 25px;
+    margin-top: -250px;
+}
+
+.visib {
+    
+}

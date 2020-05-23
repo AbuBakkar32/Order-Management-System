@@ -1,0 +1,183 @@
+﻿
+.seecustomer {
+    display: inline-block;
+    padding: 0px;
+    margin-top: 50px;
+    margin-left: -70px
+}
+
+.search {
+    display: inline-block;
+    float: right;
+    margin-top: 50px;
+}
+
+.gridview {
+    display: inline-block;
+    float: right;
+    width: auto;
+    height: auto;
+    margin-right: 230px;
+}
+
+.grid {
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+}
+
+.textsearch {
+    width: 500px;
+    height: 25px;
+    text-align: center;
+    border-radius: 18px;
+    border: 2px solid white;
+}
+
+.buttonsearch {
+    border: 2px solid red;
+    border-radius: 10px 5px;
+    background-color: black;
+    color: white;
+    height: 30px;
+    cursor: pointer;
+}
+
+.backsearch {
+    border: 2px solid red;
+    border-radius: 10px 5px;
+    background-color: black;
+    color: white;
+    height: 30px;
+    cursor: pointer;
+}
+
+.customerlist {
+    height: 36px;
+    width: 300px;
+    text-align: center;
+    margin-left: -100px;
+    margin-bottom: -120px;
+    border-radius: 28px 2px;
+    background-color: black;
+    color: orangered;
+    font-weight: 800;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.inputbox {
+    display: inline-block;
+    float: left;
+    margin-left: -220px;
+    clear: both;
+    padding: 20px;
+}
+
+.textsearch1 {
+    width: 200px;
+    height: 25px;
+    text-align: center;
+    border-radius: 18px;
+    border: 2px solid white;
+}
+
+.label {
+    color: antiquewhite;
+    font-weight: 600;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.buttonsearch2 {
+    border: 2px solid red;
+    border-radius: 10px 5px;
+    background-color: black;
+    color: white;
+    height: 30px;
+    cursor: pointer;
+    margin-left: 200px;
+    width: 120px;
+    text-align: center;
+}
+
+.buttonsearch3 {
+    height: 36px;
+    width: 300px;
+    text-align: center;
+    margin-left: -100px;
+    margin-top: 100px;
+    border-radius: 28px 2px;
+    background-color: black;
+    color: orangered;
+    font-weight: 800;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    clear: both;
+}
+
+.updateinfo {
+    display: inline-block;
+    height: 36px;
+    width: 300px;
+    margin-left: -100px;
+    margin-bottom: -200px;
+    border-radius: 28px 2px;
+    background-color: black;
+    color: orangered;
+    font-weight: 800;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    clear: both;
+    text-align: center;
+}
+
+.date {
+    display: inline-block;
+    margin-left: -230px;
+    margin-top: -50px;
+}
+
+.textvisible {
+    color: whitesmoke;
+    text-align: right;
+    margin-left: 510px;
+    font-size: 25px;
+}
+
+.visib {
+    margin-top: 80px;
+}
+
+.customerlist {
+    height: 36px;
+    width: 340px;
+    text-align: center;
+    margin-left: -100px;
+    margin-bottom: -10px;
+    border-radius: 28px 2px;
+    background-color: black;
+    color: orangered;
+    font-weight: 800;
+    font-size: 16px;
+    cursor: pointer;
+}
+.textvisible1 {
+    color: whitesmoke;
+    text-align: right;
+    margin-left: 120px;
+    font-size: 26px;
+
+
+}
+
+.visib1 {
+    margin-top: -30px;
+    
+}
+.gridview1{
+    margin-top:20px;
+    margin-left:-80px;
+}

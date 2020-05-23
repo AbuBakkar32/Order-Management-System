@@ -1,0 +1,119 @@
+﻿body {
+
+}
+.search {
+    display: inline-block;
+    float: right;
+    margin-top: 50px;
+}
+
+.textsearch {
+    width: 500px;
+    height: 25px;
+    text-align: center;
+    border-radius: 18px;
+    border: 2px solid white;
+}
+
+.buttonsearch {
+    border: 2px solid red;
+    border-radius: 10px 5px;
+    background-color: black;
+    color: white;
+    height: 30px;
+    cursor: pointer;
+}
+
+.backsearch {
+    border: 2px solid red;
+    border-radius: 10px 5px;
+    background-color: black;
+    color: white;
+    height: 30px;
+    cursor: pointer;
+}
+
+.inputbox {
+    display: inline-block;
+    float: left;
+    margin-left: -140px;
+    margin-top: 40px;
+    clear: both;
+    padding: 20px;
+}
+
+.buttonsearch2 {
+    border: 2px solid red;
+    border-radius: 10px 5px;
+    background-color: black;
+    color: white;
+    height: 30px;
+    cursor: pointer;
+    margin-left: -130px;
+    width: 80px;
+    text-align: center;
+    margin-top:220px;
+    display: inline-block;
+}
+
+.buttonsearch3 {
+    border: 2px solid red;
+    border-radius: 10px 5px;
+    background-color: black;
+    color: white;
+    height: 30px;
+    cursor: pointer;
+    margin-left: -180px;
+    width: 130px;
+    text-align: center;
+    margin-bottom: -10px;
+    display: inline-block;
+}
+
+.label {
+    color: antiquewhite;
+    font-weight: 600;
+    margin-left: -50px;
+    font-size: 18px;
+}
+
+.gridview {
+    display: inline-block;
+    float: right;
+    width: auto;
+    height: auto;
+    margin-left: 120px;
+}
+
+.grid {
+    height: 300px;
+    width: 500px;
+    margin-top: -230px;
+    text-align: center;
+    display: inline-block;
+}
+
+.textsearch1 {
+    width: 200px;
+    height: 25px;
+    text-align: center;
+    border-radius: 18px;
+    border: 2px solid white;
+    padding:5px;
+    margin:10px;
+}
+.date {
+    display: inline-block;
+    margin-left: -230px;
+    margin-top: -55px;
+}
+.textvisible {
+    color: whitesmoke;
+    text-align: right;
+    margin-left: 480px;
+    font-size: 25px;
+}
+
+.visib {
+    margin-top: 60px;
+}

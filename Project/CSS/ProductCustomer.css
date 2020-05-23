@@ -1,0 +1,115 @@
+﻿
+.textsearch1 {
+    width: 200px;
+    height: 25px;
+    text-align: center;
+    border-radius: 18px;
+    border: 2px solid white;
+}
+
+.label {
+    color: antiquewhite;
+    font-weight: 600;
+    margin-left: -50px;
+    font-size: 18px;
+}
+
+.search {
+    display: inline-block;
+    float: right;
+    margin-top: 50px;
+}
+
+.textsearch {
+    width: 500px;
+    height: 25px;
+    text-align: center;
+    border-radius: 18px;
+    border: 2px solid white;
+}
+
+.buttonsearch {
+    border: 2px solid red;
+    border-radius: 10px 5px;
+    background-color: black;
+    color: white;
+    height: 30px;
+    cursor: pointer;
+}
+
+.backsearch {
+    border: 2px solid red;
+    border-radius: 10px 5px;
+    background-color: black;
+    color: white;
+    height: 30px;
+    cursor: pointer;
+}
+
+.gridview {
+    display:inline-block;
+    float: right;
+    width: auto;
+    height: auto;
+    margin-right:250px;
+}
+
+.grid {
+    height: 150px;
+    width: 500px;
+    margin-top: 20px;
+}
+
+.inputbox {
+    display: inline-block;
+    float: left;
+    margin-left: -140px;
+    margin-top: 60px;
+    clear: both;
+    padding: 20px;
+}
+
+.buttonsearch2 {
+    border: 2px solid red;
+    border-radius: 10px 5px;
+    background-color: black;
+    color: white;
+    height: 30px;
+    cursor: pointer;
+    margin-left: -120px;
+    width: 90px;
+    text-align: center;
+    margin-top: 300px;
+    display: inline-block;
+}
+
+.buttonsearch3 {
+    border: 2px solid red;
+    border-radius: 10px 5px;
+    background-color: black;
+    color: white;
+    height: 30px;
+    cursor: pointer;
+    margin-left: -190px;
+    width: 90px;
+    text-align: center;
+    margin-top: 40px;
+    display: inline-block;
+}
+
+.date {
+    display: inline-block;
+    margin-left: -230px;
+    margin-top: -40px;
+}
+.textvisible1 {
+    color: whitesmoke;
+    text-align: right;
+    margin-left: 370px;
+    font-size: 26px;
+    display:inline-block;
+}
+
+.visib1{
+    margin-top: 100px;
+}

@@ -1,0 +1,126 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('images/sn-fingerprints_1.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sec2 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    margin-left: 500px;
+    margin-top: 100px;
+}
+
+    .sec2 .container {
+        width: 45vw;
+        height: 66vh;
+    }
+
+    .sec2 .container img {
+        width: 3.5vw;
+        height: 7vh;
+        padding-left: 0vw;
+    }
+
+.content h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 7vw;
+    margin-top:70px;
+}
+
+.content input[type=text] {
+    height: 30px;
+    border: 0;
+    margin-top: 2.5vh;
+    margin-left: 4.2vw;
+    border-radius: 20px;
+}
+
+.content input[type=password] {
+    height: 30px;
+    border: 0;
+    margin-top: 2.5vh;
+    margin-left: 5vw;
+    border-radius: 20px;
+}
+
+.content input[type=submit] {
+    color: white;
+    margin-left: 12vw;
+    margin-top: 2vh;
+    padding-bottom: 6px;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px 5px;
+    border: 2px solid red;
+    background-color: black;
+    font-weight:bold;
+    cursor:pointer;
+   
+
+    
+}
+
+.content input[placeholder] {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 1vw;
+    font-size: 13px;
+}
+
+.login {
+   font-size:60px;
+   color:cornflowerblue;
+   font-display:block;
+   font-weight:1200;
+
+}
+#ogin{
+    margin-left:-80px;
+    margin-bottom:10px;
+    font-size:40px;
+    text-shadow:9px 2px 8px;
+}
+.ogin{
+    color:blueviolet;
+
+}
+#click {
+    color: red;
+    padding-left:5px;
+    font-weight:400;
+}
+
+.content input[type=submit]:hover {
+    background-color: white;
+    color: black;
+}
+.label {
+    color: antiquewhite;
+    font-weight: 800;
+    text-shadow: 0px 2px 15px;
+    margin-left: 10px;
+    font-size:20px;
+}
+.passlabel{
+    font-size:20px;
+    color:red;
+    font-weight:800;
+    margin-right:80px;
+    padding-right:20px;
+}

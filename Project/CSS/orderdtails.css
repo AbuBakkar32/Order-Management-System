@@ -1,0 +1,149 @@
+﻿body {
+}
+
+.search {
+    display: inline-block;
+    float: right;
+    margin-top: 50px;
+}
+
+.textsearch {
+    width: 500px;
+    height: 25px;
+    text-align: center;
+    border-radius: 18px;
+    border: 2px solid white;
+}
+
+.buttonsearch {
+    border: 2px solid red;
+    border-radius: 10px 5px;
+    background-color: black;
+    color: white;
+    height: 30px;
+    cursor: pointer;
+}
+
+.backsearch {
+    border: 2px solid red;
+    border-radius: 10px 5px;
+    background-color: black;
+    color: white;
+    height: 30px;
+    cursor: pointer;
+}
+
+.inputbox {
+    display: inline-block;
+    float: left;
+    margin-left: -140px;
+    margin-top: 0px;
+    clear: both;
+    padding: 20px;
+}
+
+.buttonsearch2 {
+    border: 2px solid red;
+    border-radius: 10px 5px;
+    background-color: black;
+    color: white;
+    height: 30px;
+    cursor: pointer;
+    margin-left: -120px;
+    width: 80px;
+    text-align: center;
+    margin-top: 130px;
+    display: inline-block;
+}
+
+.buttonsearch3 {
+    border: 2px solid red;
+    border-radius: 10px 5px;
+    background-color: black;
+    color: white;
+    height: 30px;
+    cursor: pointer;
+    margin-left: -180px;
+    width: 130px;
+    text-align: center;
+    margin-bottom: -10px;
+    display: inline-block;
+}
+
+.label {
+    color: antiquewhite;
+    font-weight: 600;
+    margin-left: -50px;
+    font-size: 18px;
+}
+
+.gridview {
+    display: inline-block;
+    float: right;
+    width: auto;
+    height: auto;
+    margin-left: -600px;
+    margin-top:-220px;
+}
+
+.grid {
+    height: 100px;
+    width: 400px;  
+    text-align: center;
+    display: inline-block;
+}
+
+.textsearch1 {
+    width: 200px;
+    height: 25px;
+    text-align: center;
+    border-radius: 18px;
+    border: 2px solid white;
+    
+}
+.date {
+    display: inline-block;
+    margin-left:-230px;
+    margin-top:-55px;
+}
+.gridview2{
+
+margin-left:400px;
+}
+.gridee {
+    margin-bottom:100px;
+}
+.allProductButton {
+    border: 2px solid red;
+    border-radius: 10px 5px;
+    background-color: black;
+    color: white;
+    height: 30px;
+    cursor: pointer;
+    margin-left: -120px;
+    width: 80px;
+    text-align: center;
+    margin-top: 30px;
+    display: inline-block;
+    width:300px; 
+
+}
+.textvisible {
+    color: whitesmoke;
+    text-align: right;
+    margin-left: 580px;
+    font-size: 25px;
+}
+.visib {
+    margin-top: 80px;
+}
+
+.textvisible1{
+    color: whitesmoke;
+    text-align: right;
+    margin-left: 580px;
+    font-size: 25px;
+}
+.visib1 {
+    margin-top: 0px;
+}
