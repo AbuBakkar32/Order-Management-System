@@ -1,0 +1,49 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="Project.Master" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title>
+    <asp:ContentPlaceHolder ID="Title" runat="server">
+    </asp:ContentPlaceHolder>
+    </title>
+    <link href="CSS/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="container">
+		<div id="header">
+            <div class="icon">
+<a href="http://www.facebook.com" target="_blank" title="Facebook" class="fa fa-facebook"></a>
+<a href="https://twitter.com/engineer_rakib" target="_blank" title="twitter" class="fa fa-twitter"></a>
+<a href="https://plus.google.com/" target="_blank" title="google" class="fa fa-google"></a>
+<a href="https://www.linkedin.com/in/abu-bakkar-siddik-b80739173/" target="_blank" title="linkedin" class="fa fa-linkedin"></a>
+</div>
+        	<h1>আমাদের <span class="off">পণ্য</span></h1> 
+           
+        </div>                  
+        <div id="menu">
+            <asp:Label ID="Label2" Class="sessionn session" runat="server"></asp:Label>
+        	<ul>
+            	<li><a class="active" href="Home.aspx">Home</a></li>
+                <li><a href="Product.aspx">Products</a></li>
+                <li><a href="Order.aspx">Order</a></li>
+                <li><a href="OrderDtails.aspx">OrderDtails</a></li>
+                <li><a style="color:red" class="login" href="MailLogin.aspx">Log Out</a></li>
+                
+            </ul>
+            </div>
+
+            <div>
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                
+                
+            </asp:ContentPlaceHolder>
+        </div> 
+            </div>
+    </form>
+</body>
+</html>
