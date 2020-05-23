@@ -1,0 +1,76 @@
+ <connectionStrings>
+    <add name="DefaultConnection" connectionString="Data Source=ABS-RAKIB-PC;Initial Catalog=student;Integrated Security=True"
+      providerName="System.Data.SqlClient" />
+  </connectionStrings>
+
+public class DataOperation
+    {
+        string connection = ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString;
+        public DataTable GetDataTable(string query)
+        {
+            SqlConnection conn = new SqlConnection(connection);
+
+            if (conn.State == ConnectionState.Closed)
+            {
+                conn.Open();
+            }
+            SqlDataAdapter da = new SqlDataAdapter(query,conn);
+            DataTable dt = new DataTable();
+            da.Fill(dt);
+            return dt;
+        }
+
+
+        public int executeQuery(string query){
+            SqlConnection conn = new SqlConnection(connection);
+            if (conn.State == ConnectionState.Closed)
+            {
+                conn.Open();
+            }
+            SqlCommand cmd = new SqlCommand(query,conn);
+            try
+            {
+                cmd.ExecuteNonQuery();
+                return 1;
+            }
+            catch(SqlException e) {
+                return 0;
+            }
+        }
+    } 
+
+asp:DropDownList ID="DropDownList1" runat="server">  
+                            <asp:ListItem Text="BANGLADESH" Value="bangladesh" Selected="True"></asp:ListItem>  
+                            <asp:ListItem Text="INDIA" Value="india"></asp:ListItem>  
+                            <asp:ListItem Text="USA" Value="usa"></asp:ListItem>  
+                            <asp:ListItem Text="ENGLAND" Value="england"></asp:ListItem>  
+                        </asp:DropDownList>  
+
+
+
+//Row Endexing
+ GridView1.EditIndex = e.NewEditIndex;
+            this.loadgird();
+
+
+//Row Updating
+ Label lblstid = (Label)GridView1.Rows[e.RowIndex].FindControl("Label1");
+            TextBox txtStudentname = (TextBox)GridView1.Rows[e.RowIndex].FindControl("TextBox2");
+            TextBox txtMobile = (TextBox)GridView1.Rows[e.RowIndex].FindControl("TextBox3");
+            TextBox txtCourseId = (TextBox)GridView1.Rows[e.RowIndex].FindControl("TextBox4");
+
+            string query = "UPDATE Student SET Student_Name='" + txtStudentname.Text + "', Mobile='" + txtMobile.Text + "', Course_ID='" + txtCourseId.Text + "' WHERE Student_ID='" + lblstid.Text + "'";         
+            if (op.executeQuery(query) == 1)
+            {
+                GridView1.EditIndex = -1;
+                this.loadgird();   
+            }
+                GridView1.EditIndex = -1;
+        }
+
+
+//Row Canceling
+
+  GridView1.EditIndex = -1;
+            GridView1.DataBind();
+
